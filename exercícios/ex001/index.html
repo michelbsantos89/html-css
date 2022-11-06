@@ -1,0 +1,73 @@
+<!--Iniciando a Estrutura Básica de um site ou página em HTML.
+
+A linguagem HTML (HyperText Markup Language) é uma linguagem de Marcação de Hipertexto, ou seja, é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
+
+O HTML usa "marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web. Nela inclui "elementos" especiais, onde estes elementos são separados de outro texto em um documento, conhecidas por "tags", que consistem no nome do elemento entre "<" e ">" são as LESS THAN = Menor que (<) e GREATHER THAN = Maior que (>). O nome de um elemento dentro de uma tag é insensível a maiúsculas e minúsculas. Isto é, pode ser escrito em maiúsculas, minúsculas ou um mistura.
+
+Estes são alguns exemplos de tags utilizadas no HTML:  <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> e muitos outros.
+
+A maioria das tags utilizadas contém abertura e fechamento, por exemplo: Abrimos a tag <title> inserimos o contéudo desejado, em seguida fechamos a tag title dessa forma </title>, ou seja, quando estamos desenvolvendo, as tagas ficam dessa forma:
+
+<title> Meu primeiro exercício </title>
+
+Mas a outras tags que não necessitam deste fechamento, por exemplo: <br> quebra de linha (break row)  -->
+
+
+<!DOCTYPE html> <!--Indica a versão da Linguagem-->
+
+<html lang="pt-br">
+    <!-- Aqui constatamos a abertura da tag html , onde aqui inserimos qual LANGUAGE (idioma) nosso conteúdo será apresentado, por exemplo, para o inglês estaria sendo apresentado dessa forma <html lang= "eng"-->.
+    <!--Esse dois elementos que delimitam o documento-->
+
+<head> <!--Cabeçalho do documento, é parte de configurações do seu site-->
+    <meta charset="UTF-8"> <!--Padrão de codificação de caracteres que suporta acentuação e é o conjunto definido é o UTF-8, que é o mais usado na web, porque abrange o padrão Unicode e ASCII, mesma tag que são atribuidas para o SEO ( Otimização para mecanismo de busca.)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>  <!-- É ele que aparece na guia do navegador, assim que carregada-->
+</head> <!--O cabeçalho do documento-->
+<body> <!-- Conhecida como área de corpo, é a parte de conteúdo do site, ela que sinaliza o espaço para o conteúdo visual da página. (Assim sendo botões, faixas de aúdio, imagens, textos, entre outras tag's também devem ser inseridas dentro desse intervalo.)-->
+    <h1>Olá, Mundo!</h1> <!--Heading Tags h1 a h6-->
+
+    <!--O que são heading tags?
+        As Heading Tags (H1, H2, H3, ...) são recursos de programação HTML utilizados para destacar títulos e subtítulos de uma página. Elas são utilizadas na hierarquização e estrutura de uma página.
+
+        Elas facilitam a leitura, entendimento e até mesmo a indexação do conteúdo e sua utilização é bem mais simples do que parece.
+    
+    <h1> Cabeçalho 1
+        H1 é a abreviação do inglês para Header 1, ou Cabeçalho 1, logo, o mais importante dos Headers. 
+
+        Conceitualmente, o H1 possui um destaque maior, uma fonte maior, e é geralmente o elemento de texto mais visível da página. 
+
+        Assim como nos negritos de uma página e o Title, a tag H1 é um importante elemento que o Google utiliza para determinar o principal assunto abordado em uma página, visto que o título de uma página conceitualmente define seu conteúdo.
+
+        Recomendamos ainda utilizar apenas uma H1 por página, sempre focando na palavra-chave principal. Isso dá um claro indício ao Google de qual é a palavra-chave mais importante da página.
+
+    <h2>, <h3>, <h4>, <h5> e <h6>
+        
+        As demais Heading Tags, como H2 e H3, são geralmente utilizadas como subtítulos de uma página. 
+
+        Em SEO, são um excelente recurso para incluir palavras-chave complementares, ou seja, variações e complementos da palavras-chave principal que não terão uma página exclusiva para ela, seja por baixo volume de pesquisa ou por simplesmente não se encaixar no conceito do site.
+    
+    Exemplo de Heading Tags
+
+        <h1>Crescimento da TI</h1>
+        
+            <h2>Áreas de demandas</h2>
+                <h3>Desenvolvimento Front-End</h3>
+                <h3>Desenvolvimento Back-End</h3>
+                <h3> Data Science</h3>
+                <h3> Cyber segurança</h3>
+
+            <h2>Profissionais Requisitados</h2>
+                <h3> Desenvolvedor Front-End</h3>
+                    <h4>Skills</h4>
+                        <h5>Html</h5>
+                        <h5>Css</h5>
+                        <h5>JavaScript</h5>
+                        <h5> React Native or React JS</h5>
+ -->
+    <p>Este é meu primeiro documento HTML! Estou muito feliz!</p>
+
+
+</body>
+</html>

@@ -5,18 +5,25 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #4587EB, #339DD4);
+    background-image: linear-gradient(to right, #023059, #011526);
 }
 
 main {
     background-color: white ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0367A6;
     width: 600px;
     padding: 10px;
     margin: auto;
 }
 
 h1 {
-    color: #011526;
+    color: #023059;
+    text-align: center;
+}
+
+h2 {
+    color: #035AA6;
 }
 
 p {

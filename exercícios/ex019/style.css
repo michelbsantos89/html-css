@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+/*
+    EM HTML é id = em CSS é #
+    Obs: Dentro de um mesmo documento de HTML5, só pode ter um id. (Regra W3C)
+
+    Em HTML é class = em CSS é . (pode ter vários elementos)
+*/
+
+body {
+    background-color: #78b0e6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #165B9C;
+}
+
+h1#principal {
+    color: white;
+    background-color: #0D365C;
+    text-align: center;
+}
+
+.basico {
+    color: #58c21b;
+    background-color: #0D365C;
+}
+
+.intermediario {
+    color: #c2b71b;
+    background-color: #0D365C
+}
+
+.avancado {
+    color: #c21b1b;
+    background-color: #0D365C
+}
